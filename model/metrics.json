@@ -1,0 +1,46 @@
+{
+  "dataset": "kaggle: blastchar/telco-customer-churn",
+  "model": "gradient_boosting",
+  "test_metrics": {
+    "accuracy": 0.8048,
+    "f1": 0.5877,
+    "roc_auc": 0.8441
+  },
+  "all_models": {
+    "logistic_regression": {
+      "accuracy": 0.8055,
+      "f1": 0.604,
+      "roc_auc": 0.8421
+    },
+    "gradient_boosting": {
+      "accuracy": 0.8048,
+      "f1": 0.5877,
+      "roc_auc": 0.8441
+    }
+  },
+  "features": {
+    "numeric": [
+      "tenure",
+      "MonthlyCharges",
+      "TotalCharges",
+      "SeniorCitizen"
+    ],
+    "categorical": [
+      "gender",
+      "Partner",
+      "Dependents",
+      "PhoneService",
+      "MultipleLines",
+      "InternetService",
+      "OnlineSecurity",
+      "OnlineBackup",
+      "DeviceProtection",
+      "TechSupport",
+      "StreamingTV",
+      "StreamingMovies",
+      "Contract",
+      "PaperlessBilling",
+      "PaymentMethod"
+    ]
+  }
+}
